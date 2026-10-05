@@ -2,7 +2,7 @@
 
 A minimal, resizable desktop widget that shows live cryptocurrency prices and 24h change. Pick any coins you like, drag it wherever you want, and let it sit quietly on your screen.
 
-[Crypto Widget](docs/screenshot.png)
+(docs/screenshot.png)
 
 ## Features
 
