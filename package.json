@@ -1,6 +1,6 @@
 {
   "name": "crypto-widget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal desktop crypto price widget",
   "author": "Areeb",
   "main": "electron/main.js",
@@ -11,9 +11,22 @@
   "build": {
     "appId": "com.areeb.cryptowidget",
     "productName": "Crypto Widget",
-    "files": ["electron/**/*", "src/**/*", "assets/**/*", "package.json"],
-    "win": { "target": ["nsis"], "icon": "assets/icon.png" },
-    "nsis": { "oneClick": true, "perMachine": false }
+    "files": [
+      "electron/**/*",
+      "src/**/*",
+      "assets/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "assets/icon.png"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false
+    }
   },
   "keywords": [],
   "license": "ISC",
